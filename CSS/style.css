@@ -1,0 +1,198 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    width: 750px;
+    /* font-family: 'Lexend Deca', sans-serif; */
+    font-family: 'Big Shoulders Display', cursive;
+    grid-template-rows: 370px;
+}
+
+.item
+{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.item1
+{
+    background-color: hsl(31, 77%, 52%);
+
+    
+}
+
+.item2
+{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.item3
+{
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+
+
+.luxury
+{
+    margin-top: 70px;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+}
+.sedan
+{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 70px;
+    background-color: white;
+    color: hsl(31, 77%, 52%);;
+}
+
+.suv
+{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 70px;
+    background-color: white; 
+    color: hsl(184, 100%, 22%);;  
+}
+
+h1
+{
+    color: white;
+}
+
+.description
+{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    width: 200px;
+}
+.description3
+{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    width: 200px;
+}
+.attribution 
+{   
+    font-size: 13px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* For responsive design */
+
+@media(max-width: 414px)
+{
+    .container
+{
+    display: block;
+    width: 300px;
+    height: 900px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.item
+{
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 270px;
+}
+.item1
+{
+    background-color: hsl(31, 77%, 52%);
+
+    
+}
+
+.item2
+{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.item3
+{
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+
+
+.luxury
+{
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+}
+.sedan
+{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    background-color: white;
+    color: hsl(31, 77%, 52%);;
+}
+
+.suv
+{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    background-color: white; 
+    color: hsl(184, 100%, 22%);;  
+}
+
+h1
+{
+    color: white;
+}
+
+.description
+{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    width: 200px;
+    font-weight: 200;
+}
+.description3
+{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    width: 200px;
+}
+}
